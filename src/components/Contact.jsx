@@ -25,7 +25,7 @@ const Contact = () => {
     }
 
   return (
-    <div className='c-main'>
+    <div className='c-main' id='contact'>
         <div className="c-bar">
         </div>
         <div className="c-wrapper">

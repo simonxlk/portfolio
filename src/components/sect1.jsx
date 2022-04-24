@@ -18,9 +18,9 @@ const sect1 = () => {
                     <div className="menu-wrapper">
                         <div className="menu-btn"><HiMenu /></div>
                         <ul className="menu-items">
-                            <li><a href="#" className='link-item'><FaHatCowboy /> <span className='text-gap'>Skills</span></a></li>
-                            <li><a href="#" className='link-item'><FaHourglassHalf /> <span className='text-gap'>Recent Work</span></a></li>
-                            <li><a href="#" className='link-item'><MdOutlineAlternateEmail /> <span className='text-gap'>Contact</span></a></li>
+                            <li><a href="#skills_section" className='link-item'><FaHatCowboy /> <span className='text-gap'>Skills</span></a></li>
+                            <li><a href="#examples_section" className='link-item'><FaHourglassHalf /> <span className='text-gap'>Recent Work</span></a></li>
+                            <li><a href="#contact" className='link-item'><MdOutlineAlternateEmail /> <span className='text-gap'>Contact</span></a></li>
                         </ul>
                     </div>
                 </div>
