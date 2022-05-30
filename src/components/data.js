@@ -1,22 +1,28 @@
 export const Projects = [
     {
         id: 1,
-        img: "https://cdn.pixabay.com/photo/2018/08/18/13/27/browser-3614768_960_720.png",
+        img: "https://portfolio-3e62a.web.app/images/preview/beko.jpg",
         link: "https://bbc.co.uk",
+        pname: "Beko brand shop on Currys"
     },
     {
         id: 2,
-        img: "https://cdn.pixabay.com/photo/2018/12/10/02/14/manhattan-3866140_960_720.jpg",
+        img: "https://portfolio-3e62a.web.app/images/preview/bosch.jpg",
         link: "https://currys.co.uk",
+        pname: "Bosch brand shop on Currys"
     },
     {
         id: 3,
-        img: "https://cdn.pixabay.com/photo/2022/04/01/09/07/world-wide-web-7104406_960_720.jpg",
+        img: "https://portfolio-3e62a.web.app/images/preview/intel.jpg",
         link: "https://google.co.uk",
+        pname: "Intel brand shop on Currys"
     },
     {
         id: 4,
-        img: "https://cdn.pixabay.com/photo/2016/03/03/10/17/social-media-1233873_960_720.jpg",
+        img: "https://portfolio-3e62a.web.app/images/preview/sony.jpg",
         link: "https://youtube.com",
+        pname: "Sony brand shop on Currys"
     },
+   
+    
 ];
