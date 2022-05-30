@@ -6,12 +6,10 @@ import { FaHatCowboy } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { MdBuild } from 'react-icons/md';
 import { MdMenu, MdClose } from 'react-icons/md';
-import { useState } from 'react';
 import { IoHome } from 'react-icons/io5'
 
 const Navbar = () => {
 
-    const [open, setOpen] = useState(false);
   return (
     <div className='nav-container'>
         <div className='top-bar-wrapper'>
@@ -20,7 +18,7 @@ const Navbar = () => {
                     <img src={MyLogo} alt="logo" />
                 </div>
                 <div className="top-right">
-                <div className="menu-btn" onClick={() => setOpen(!open)}><MdMenu /> <MdClose /></div>
+                <div className="menu-btn"><MdMenu /><MdClose /></div>
                     <div className="menu-wrapper">
                         <div className="menu-items">
                             <li><Link to="/" className='link-item'>

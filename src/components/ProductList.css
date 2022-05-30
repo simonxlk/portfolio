@@ -27,16 +27,21 @@
     .project-half{flex:100%;}
 }
 
-.project-half h2{margin-bottom:20px; font-size:24px;}
+.project-half h2{margin-bottom:30px; font-size:26px; font-weight:600;}
 .link-box{
-    border-radius: 20px; 
-    width:360px; 
-    margin:0 auto 30px;
+    border-radius: 12px; 
+    width:320px; 
+    margin:0 auto 40px;
     overflow: hidden;
     height:auto;
     box-sizing: border-box;
     position:relative;
 }
+/*.bg-img{
+    transition: transform 0.2s;
+}
+.bg-img:hover{transform: scale(1.1);}*/
+
 .link-box img{display:block;}
 .link-box a{text-decoration: none;}
 
@@ -47,4 +52,12 @@
     color:#fff; text-align:center;
     display:flex; align-items: center;
     padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.2s;
 }
+.shadow:hover{background-color: rgba(0,0,0,0.7);}
+.shadow p{text-align:center; width:100%; 
+    font-size: 20px; font-weight: 600;
+    text-shadow:2px 2px 5px rgba(0,0,0, 0.5); 
+}
+.shadow p:hover{text-decoration: underline;}

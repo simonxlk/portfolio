@@ -25,20 +25,22 @@ const ProductList = () => {
           <div className="project-half">
               <h2>Design projects</h2>
               <div className="link-box">
-                <div>
-                    <a href="https://portfolio-3e62a.web.app/graphics.html" target="_blank" rel="noreferrer">
-                      <img src="https://portfolio-3e62a.web.app/images/preview/design.jpg" alt="design img" />
-                    </a>
+                <div className='bg-img'>
+                    <img src="https://portfolio-3e62a.web.app/images/preview/design.jpg" alt="design img" />
                 </div>
-                <div className="shadow">
-                  <p>Banners & Landing page background</p>
-                  <div className='vbtn'>Visit Page</div>
-                </div>
+                <a href="https://portfolio-3e62a.web.app/graphics.html" target="_blank" rel="noreferrer">
+                  <div className="shadow">
+                    <p>Static Designs</p>
+                  </div>
+                </a>
               </div>
 
               <div className="link-box">
+                <img src="https://portfolio-3e62a.web.app/images/preview/animated-banners.jpg" alt="animated banners" />
                 <a href="https://portfolio-3e62a.web.app/animation.html" target="_blank" rel="noreferrer">
-                  <img src="https://portfolio-3e62a.web.app/images/preview/animated-banners.jpg" alt="animated banners" />
+                  <div className="shadow">
+                    <p>Animated banners</p>
+                  </div>
                 </a>
               </div>
           </div>

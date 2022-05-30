@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import { useState } from 'react';
 import "./Contact.css";
 import emailjs from '@emailjs/browser';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 const Contact = () => {
     const formRef = useRef()
@@ -30,14 +31,20 @@ const Contact = () => {
         </div>
         <div className="c-wrapper">
             <div className="c-left">
-                <h1 className="c-title">Talk to me boo</h1>
+                <h1 className="c-title">Contact me</h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                        phone
+                        Find me on LinkedIn, checkout my Github or contact me by email.
+                    </div>
+                    <div className="contact-icons">
+                        <a href="https://www.linkedin.com/in/simon-kelehan-8a8833139" target="_blank" rel="noreferrer">
+                            <BsLinkedin /></a>
+                        <a href="https://github.com/simonxlk?tab=repositories" target="_blank" rel="noreferrer">
+                            <BsGithub />
+                        </a>
                     </div>
                 </div>
-            </div>
-            <div className="c-right">
+                <div className="form-wrapper">
                 <form ref={formRef} onSubmit={handleSubmit}>
                     <input type="text" placeholder='Name' name='user_name' />
                     <input type="text" placeholder='Subject' name='user_subject' />
@@ -47,6 +54,8 @@ const Contact = () => {
                     {done && "Thank you"}
                 </form>
             </div>
+            </div>
+            
         </div>
     </div>
   )

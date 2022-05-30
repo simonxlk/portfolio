@@ -13,7 +13,9 @@
     display: flex;
 }
 .c-left{flex:1}
-.c-right{flex:1}
+.form-wrapper{max-width: 600px; margin: 50px auto 0;}
+.c-info-item{margin:20px 0 30px;}
+.contact-icons a{text-decoration: none; font-size: 60px; color:#60b0f4; padding:0 20px;}
 
 form {
     margin-top:20px;
