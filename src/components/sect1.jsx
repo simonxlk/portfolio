@@ -15,7 +15,7 @@ const sect1 = () => {
             </div>
             <div className="mr-handsome">
                 <div className="profile-wrapper">
-                    <img src={ProfilePic} alt="profile picture" />
+                    <img src={ProfilePic} alt="profile pic" />
                 </div>
             </div>
             <div className="hero-img">
