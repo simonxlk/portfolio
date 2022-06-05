@@ -13,37 +13,41 @@ const ProductList = () => {
             </p>
         </div>
         <div className="project-container">
-          <div className="project-half">
+          <div className="box-container">
             <h2>Development projects</h2>
-          <div className="pl-list">
-            {Projects.map((item) =>(
-              <Products key={item.id} img={item.img} link={item.link} pname={item.pname}/>
-            ))}
-              
-          </div>
-          </div>
-          <div className="project-half">
-              <h2>Design projects</h2>
-              <div className="link-box">
-                <div className='bg-img'>
-                    <img src="https://portfolio-3e62a.web.app/images/preview/design.jpg" alt="design img" />
-                </div>
-                <a href="https://portfolio-3e62a.web.app/graphics.html" target="_blank" rel="noreferrer">
-                  <div className="shadow">
-                    <p>Static Designs</p>
-                  </div>
-                </a>
-              </div>
+            <div className="pl-list">
+              {Projects.map((item) =>(
+                <Products key={item.id} img={item.img} link={item.link} pname={item.pname}/>
+              ))}
+                
+            </div>
 
-              <div className="link-box">
-                <img src="https://portfolio-3e62a.web.app/images/preview/animated-banners.jpg" alt="animated banners" />
-                <a href="https://portfolio-3e62a.web.app/animation.html" target="_blank" rel="noreferrer">
-                  <div className="shadow">
-                    <p>Animated banners</p>
-                  </div>
-                </a>
-              </div>
+            <div className="design-projects pl-list">
+              <h2>Design projects</h2>
+                <div className="link-box">
+                  <img src="https://portfolio-3e62a.web.app/images/preview/design.jpg" alt="design img" />
+                
+                    <div className="shadow">
+                      <p>Banners and graphics</p>
+                      <a href="https://portfolio-3e62a.web.app/graphics.html" target="_blank" rel="noreferrer">
+                        <div className='p-arrow'>open page</div>
+                      </a>
+                    </div>
+                </div>
+
+                <div className="link-box">
+                  <img src="https://portfolio-3e62a.web.app/images/preview/animated-banners.jpg" alt="animated banners" />
+                  
+                    <div className="shadow">
+                      <p>Animated banners</p>
+                      <a href="https://portfolio-3e62a.web.app/animation.html" target="_blank" rel="noreferrer">
+                        <div className='p-arrow'>open page</div>
+                      </a>
+                    </div>
+                </div>
+            </div>
           </div>
+          
         </div>
         
     </div>

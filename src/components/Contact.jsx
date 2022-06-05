@@ -27,11 +27,10 @@ const Contact = () => {
 
   return (
     <div className='c-main' id='contact'>
-        <div className="c-bar">
-        </div>
+        
         <div className="c-wrapper">
             <div className="c-left">
-                <h1 className="c-title">Contact me</h1>
+                <h1 className="c-title">Contact</h1>
                 <div className="c-info">
                     <div className="c-info-item">
                         Find me on LinkedIn, checkout my Github or contact me by email.
@@ -50,8 +49,10 @@ const Contact = () => {
                     <input type="text" placeholder='Subject' name='user_subject' />
                     <input type="text" placeholder='Email' name='user_email' />
                     <textarea rows="5" placeholder="Message" name="message" />
+                    <div>
                     <button>Submit</button>
                     {done && "Thank you"}
+                    </div>
                 </form>
             </div>
             </div>

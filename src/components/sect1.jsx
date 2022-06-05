@@ -22,7 +22,8 @@ const sect1 = () => {
                 <img src={HeroImg} alt="computers: desktop, laptop and mobile" />
             </div>
         </div>
-        <div className="bottom-bar"></div>
+        <div className="bottom-bar">
+        </div>
     </div>
   )
 }
