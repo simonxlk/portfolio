@@ -2,6 +2,9 @@ import React from 'react'
 import './sect1.css';
 import HeroImg from '../images/hero.svg';
 import ProfilePic from '../images/profile.png';
+import {Link} from 'react-router-dom';
+import { MdBuild } from 'react-icons/md';
+import { FaHatCowboy } from "react-icons/fa";
 
 
 const sect1 = () => {
@@ -16,6 +19,19 @@ const sect1 = () => {
             <div className="mr-handsome">
                 <div className="profile-wrapper">
                     <img src={ProfilePic} alt="profile pic" />
+                </div>
+            </div>
+
+            <div className="key-links">
+                <div className="home-link-box">
+                    <Link to="/projects" className='home-link'>
+                        <MdBuild /> Projects
+                    </Link>
+                </div>
+                <div className="home-link-box">
+                    <Link to="/skills" className='home-link'>
+                        <FaHatCowboy /> Skills
+                    </Link>
                 </div>
             </div>
             <div className="hero-img">

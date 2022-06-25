@@ -1,12 +1,12 @@
 .itemBox{
-    width:250px;
-    height:320px;
+    width:280px;
+    height:auto;
     margin:20px 15px;
     border-radius: 8px;
     overflow: hidden;
     position:relative;
-    background-color: #fff;
-    border:1px solid #d8d8d9;
+    /*background-color: #fff;
+    border:1px solid #d8d8d9;*/
 }
 .itemBox a{
     text-decoration: none;
@@ -15,24 +15,20 @@
 .itemBox img{display: block;}
 
 .itemBox p{
-    color:#6d6e71;
+    color:#fff;
+    padding:15px 10px;
 }
 .box-text{
-    margin-top:20px;
+    position:absolute;
+    background-color:rgba(0,0,0, 0.4);
+    bottom:0;
+    width:100%;
 }
 .item-disc{
-    font-weight:500;
-    font-size: 20px;
+    font-weight:400;
+    font-size: 16px;
 }
-.p-arrow{
-    margin-bottom:15px; 
-     display:flex; 
-    align-items: center;
-    justify-content: center;
-    padding-top:15px;
-    font-weight:500;
-}
-.p-arrow:hover{text-decoration: underline;}
+
 /*.p-browser{
     height:20px; 
     background-color: #eee;

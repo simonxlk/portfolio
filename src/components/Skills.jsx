@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Skills.css";
+import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaBootstrap, FaNpm, FaGitAlt } from 'react-icons/fa';
+import { SiJavascript, SiNextdotjs, SiSketch, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiGithub } from 'react-icons/si'
 
 function Skills() {
   return (
@@ -24,25 +26,25 @@ function Skills() {
         <div className="skills-inner">
           <div className="skills-row row-1st">
             <h3>Developer languages and tools:</h3>
-            <p>HTML </p>
-            <p>CSS </p>
-            <p>SASS </p>
-            <p>Javascript </p>
-            <p>React JS </p>
-            <p>Next JS </p>
-            <p>JQuery </p>
-            <p>Bootstrap </p>
-            <p>NPM</p>
-            <p>Git</p>
+            <p><FaHtml5 className='skill-icon'/>HTML </p>
+            <p><FaCss3Alt className='skill-icon'/>CSS </p>
+            <p><FaSass className='skill-icon'/>SASS </p>
+            <p><SiJavascript className='skill-icon'/> Javascript </p>
+            <p><FaReact className='skill-icon'/>React JS </p>
+            <p><SiNextdotjs className='skill-icon'/>Next JS </p>
+            <p><FaBootstrap className='skill-icon'/>Bootstrap </p>
+            <p><FaNpm className='skill-icon'/>NPM</p>
+            <p><FaGitAlt className='skill-icon'/>Git</p>
+            <p><SiGithub className='skill-icon'/>GitHub</p>
             
           </div>
 
           <div className="skills-row">
             <h3>Design Tools:</h3>
-            <p>Sketch </p>
-            <p>Figma </p>
-            <p>Adobe Photoshop </p>
-            <p>Adobe Illustrator </p>
+            <p><SiSketch className='skill-icon'/>Sketch </p>
+            <p><SiFigma className='skill-icon'/>Figma </p>
+            <p><SiAdobephotoshop className='skill-icon'/>Adobe Photoshop </p>
+            <p><SiAdobeillustrator className='skill-icon'/>Adobe Illustrator </p>
             
           </div>
       </div>

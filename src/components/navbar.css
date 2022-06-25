@@ -27,10 +27,14 @@
     line-height: normal;
 }
 
-.menu-items a{text-decoration: none; color: #444;}
+.menu-items a{text-decoration: none; color: #444; display: flex; align-items: center; height:24px;}
 .menu-items a:hover{text-decoration: underline;}
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1199px) {
+    .top-left{flex:35%;}
+    .top-right{flex:65%;}
+}
+@media only screen and (max-width: 899px) {
     .top-bar{
         padding:15px 0;
         align-items:flex-start;
@@ -48,6 +52,6 @@
         display:inline-block;
         background-color: #60b0f4;
         padding:15px 20px;
-        border-radius: 0 0 5px 5px;
+        border-radius: 0 0 10px 10px;
     }
 }

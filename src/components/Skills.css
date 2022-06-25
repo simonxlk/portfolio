@@ -15,7 +15,8 @@
     background-color: #fff; 
 }
 .skills-inner{padding:0 30px; display:flex; flex-wrap: wrap;}
-.skills-inner p{margin-bottom:10px; font-size: 18px; color: #666;}
+.skills-inner p{margin-bottom:10px; font-size: 18px; color: #666; height:24px; display:flex; align-items: center; justify-content: center;}
+.skill-icon{color:#60b0f4; padding-right:5px;}
 .skills-inner h3{font-size:24px; margin-bottom: 20px; color: #666;}
 .skills-row{flex:1; padding:75px 0;}
 .row-1st{border-right: 1px solid #e1e1e1;}
