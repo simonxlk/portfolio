@@ -38,7 +38,7 @@ const ProductList = () => {
 
             <Modal open={isOpen} onClose={() => setIsOpen(false)}>
               <div className="pic-view">
-                <img src={bigData.lgimg} alt="large image"/>
+                <img src={bigData.lgimg} alt="large pic"/>
               </div>
               <div className='mtext-view'>
                 <h1>{bigData.pname}</h1>
