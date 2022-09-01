@@ -1,25 +1,20 @@
 import React from 'react'
 import "./Skills.css";
-import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaBootstrap, FaNpm, FaGitAlt } from 'react-icons/fa';
-import { SiJavascript, SiNextdotjs, SiSketch, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiGithub } from 'react-icons/si'
+import { FaHtml5, FaCss3Alt, FaSass, FaReact, FaBootstrap, FaGitAlt, FaVuejs } from 'react-icons/fa';
+import { SiJavascript, SiSketch, SiFigma, SiAdobephotoshop, SiAdobeillustrator, SiGithub, SiNuxtdotjs, SiTailwindcss } from 'react-icons/si'
 
 function Skills() {
   return (
     <div id='skills_section'>
       <div className="intro-wrapper">
           <div className="intro-text">
-            <h2>Hi, I'm Simon. Welcome to my tech Journey..</h2>
-            <p>Since graduating from University, I have started a business 
-              that helped people to find financial products, worked for 
-              a sports betting company and currently I work for one of 
-              the biggest retailers in the UK.</p>
-              <p>
-              This means at various stages I have; managed an entire 
-              website, built landing pages, edited graphics and 
-              created banners.  
-              </p>
-              <p>I have a genuine interest in technology and a 
-                commitment to keep abreast of the latest web technologies.</p>
+            <h2>Hi, I'm Simon..</h2>
+            <p>A front-end developer with a deep interest in Vue.js and the Vue ecosystem.
+              <br />
+              I currently work for one of the biggest retailers in the UK and in the past I have worked for a sports betting company.  
+            </p>
+            <p>I have a genuine interest in technology and a 
+              commitment to keep abreast of the latest web technologies.</p>
           </div>
       </div>
       <div className="skills-wrapper">
@@ -30,10 +25,11 @@ function Skills() {
             <p><FaCss3Alt className='skill-icon'/>CSS </p>
             <p><FaSass className='skill-icon'/>SASS </p>
             <p><SiJavascript className='skill-icon'/> Javascript </p>
+            <p><FaVuejs className='skill-icon'/>Vue JS </p>
+            <p><SiNuxtdotjs className='skill-icon'/>Nuxt JS </p>
             <p><FaReact className='skill-icon'/>React JS </p>
-            <p><SiNextdotjs className='skill-icon'/>Next JS </p>
             <p><FaBootstrap className='skill-icon'/>Bootstrap </p>
-            <p><FaNpm className='skill-icon'/>NPM</p>
+            <p><SiTailwindcss className='skill-icon'/>Tailwind CSS</p>
             <p><FaGitAlt className='skill-icon'/>Git</p>
             <p><SiGithub className='skill-icon'/>GitHub</p>
             

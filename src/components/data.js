@@ -1,6 +1,14 @@
 export const Projects = [
     {
         id: 1,
+        img: "https://portfolio-3e62a.web.app/images/preview/cryptobag.jpg",
+        link: "https://mycryptobag.netlify.app/",
+        pname: "CryptoBag Web App (Nuxt.js)",
+        desc: "A crypto tracking Web App that allows you to keep track of all your coins and gauge whether you’re up or down against the market. This app is built in Nuxt.js the SSR version of Vue.js and uses APIs from coingecko and Google Firebase for authentication and database functions.",
+        lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/cryptobag-lg.jpg"
+    },
+    {
+        id: 2,
         img: "https://portfolio-3e62a.web.app/images/preview/beko.jpg",
         link: "https://www.currys.co.uk/brands/beko/beko-appliances.html",
         pname: "Beko brand shop on Currys",
@@ -8,7 +16,7 @@ export const Projects = [
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/beko-homepage.jpg"
     },
     {
-        id: 2,
+        id: 3,
         img: "https://portfolio-3e62a.web.app/images/preview/bosch.jpg",
         link: "https://www.currys.co.uk/brands/bosch.html",
         pname: "Bosch brand shop on Currys",
@@ -16,7 +24,7 @@ export const Projects = [
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/bosch-cooking.jpg"
     },
     {
-        id: 3,
+        id: 4,
         img: "https://portfolio-3e62a.web.app/images/preview/intel.jpg",
         link: "https://www.currys.co.uk/brands/intel/intel-everyday.html",
         pname: "Intel brand shop on Currys",
@@ -24,7 +32,7 @@ export const Projects = [
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/intel.jpg"
     },
     {
-        id: 4,
+        id: 5,
         img: "https://portfolio-3e62a.web.app/images/preview/google.jpg",
         link: "https://www.currys.co.uk/brands/google.html",
         pname: "Google brand shop on Currys",
@@ -32,7 +40,7 @@ export const Projects = [
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/google.jpg"
     },
     {
-        id: 5,
+        id: 6,
         img: "https://portfolio-3e62a.web.app/images/preview/sony.jpg",
         link: "https://www.currys.co.uk/brands/sony/sony-alpha-cameras.html",
         pname: "Sony brand shop on Currys",
@@ -40,7 +48,7 @@ export const Projects = [
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/sony-zoom-cameras.jpg"
     },
     {
-        id: 6,
+        id: 7,
         img: "https://portfolio-3e62a.web.app/images/preview/ring.jpg",
         link: "https://www.currys.co.uk/brands/ring/ring-security-cameras.html",
         pname: "Ring brand shop on Currys",
@@ -48,13 +56,11 @@ export const Projects = [
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/ring.jpg"
     },
     {
-        id: 7,
+        id: 8,
         img: "https://portfolio-3e62a.web.app/images/preview/portfolio-thumb.jpg",
         link: "https://www.simonlk.com",
-        pname: "Portfolio website",
+        pname: "Portfolio website (React.js)",
         desc: "My personal portfolio website. I built it from the ground up in React.JS, it makes use of modern React features such as Routers, Hooks and Props. It is deployed through a Github repository and is hosted by Netlify. Images are hosted by Firebase.",
         lgimg: "https://portfolio-3e62a.web.app/images/preview-lg/portfolio.jpg"
     }
-   
-    
 ];
