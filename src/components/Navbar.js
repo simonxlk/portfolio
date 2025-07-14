@@ -41,7 +41,9 @@ const Navbar = () => {
             <div className="top-bar">
                 <div className="top-left">
                     <div className="logo-container">
-                        <img src={MyLogo} alt="logo" />
+                        <Link to="/">
+                            <img src={MyLogo} alt="logo made from my innitials" />
+                        </Link>
                     </div>
                 </div>
                 <div ref={menuRef} className="top-right">
@@ -49,13 +51,8 @@ const Navbar = () => {
                     </div>
                     <div className="menu-wrapper">
                         <div className="menu-items">
+                            
                             <li><Link to="/" className='link-item'>
-                                <IoHome /> Home</Link>
-                            </li>
-                            <li><Link to="/skills" className='link-item'>
-                                <FaHatCowboy /> Skills</Link>
-                            </li>
-                            <li><Link to="/projects" className='link-item'>
                                 <MdBuild /> Projects</Link>
                             </li>
                             

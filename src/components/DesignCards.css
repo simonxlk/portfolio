@@ -1,0 +1,24 @@
+.designBox {
+  width:180px;
+  height:auto;
+  margin:20px 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  position:relative;
+}
+.designBox img{display: block;}
+
+.designBox p{
+    color:#fff;
+    padding:15px 10px;
+}
+.design-text{
+    position:absolute;
+    background-color:rgba(0,0,0, 0.5);
+    bottom:0;
+    width:100%;
+}
+.design-disc{
+    font-weight:400;
+    font-size: 14px;
+}
